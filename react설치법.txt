@@ -1,0 +1,45 @@
+node 버전
+node -v
+강의시점에서는 
+v20.9.0 
+
+vite를 이용하여 react 생성
+
+npm create vite@latest
+
+다 y 누르면 됨
+
+select framework => 키보드로 react
+
+javascript로 선택
+
+package.json을 기반으로 라이브러리들 설치 =>npm install
+
+eslint 파일설정
+rules: {
+      // "no-unused-vars": ["error", { varsIgnorePattern: "^[A-Z_]" }],
+      "no-unused-vars": "off",
+      "react/prop-types": "off",
+    },
+
+실행 => npm run dev
+-----------------------------------------------------------------------------------------------
+빌드=>
+npm run build
+=> dist (빌드 결과)
+
+npm run preview => 빌드 결과에 접속
+-----------------------------------------------------------------------------------------------
+배포 => vercel cloud
+vercel.com 회원가입
+
+vercel 명령어를 글로벌로 설치
+npm install -g vercel
+
+vercel login
+vercel
+y
+link to existing project 기존에 있던 프로젝트에 연결하려면 =>y, 새로판 경우면 =>n
+want to modify these settings => n
+
+production link 클릭

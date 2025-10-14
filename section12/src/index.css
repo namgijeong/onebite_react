@@ -1,0 +1,28 @@
+@font-face {
+  font-family:"NanumPenScript";
+  src:url("/NanumPenScript-Regular.ttf");
+}
+
+html, body {
+  margin: 0px;
+  width:100%;
+  background-color:rgb(246,246,246);
+  /*이걸 하는 이유는 내용 요소들이 많아지면 root의 height가 전체적으로 다 감싸지 못하는데, body에 flex를 주면 내용물만큼 강제로 늘어난다*/
+  display:flex;
+}
+body * {
+  font-family:"NanumPenScript";
+}
+
+#root{
+  background-color:white;
+  max-width:600px;
+  width:100%;
+  margin:0 auto;
+
+  /*100vh => 스크린의 최대높이*/
+  min-height:100vh;
+  height:100%;
+  box-shadow: rgba(100,100,100,0.2) 0px 0px 29px 0px;
+  padding:0px 20px;
+}
