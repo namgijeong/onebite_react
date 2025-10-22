@@ -13,7 +13,11 @@ select framework => 키보드로 react
 
 javascript로 선택
 
+프로젝트 폴더로 터미널 경로 이동+ vscode로 해당 폴더 열기
+
 package.json을 기반으로 라이브러리들 설치 =>npm install
+
+vscode extensions에서 eslint 설치
 
 eslint 파일설정
 rules: {
@@ -23,6 +27,8 @@ rules: {
     },
 
 실행 => npm run dev
+
+
 -----------------------------------------------------------------------------------------------
 빌드=>
 npm run build
